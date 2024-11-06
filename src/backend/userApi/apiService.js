@@ -54,7 +54,7 @@ const getCurrentUser = async () => {
      const token = localStorage.getItem('accessToken');
       const response = await axios.get(`${user_api_url}/current-user` , {
         headers: {
-            Authorization: `Bearer ${token}` // টোকেন যুক্ত করা
+            Authorization: `Bearer ${token}`
         }
       })
       console.log('response' , response);
