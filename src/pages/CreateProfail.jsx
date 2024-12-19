@@ -1,5 +1,5 @@
 import React from "react";
-import { , CreateFrom } from "../components/index";
+import {  CreateFrom } from "../components/index";
 
 function CreateProfail() {
   return (
