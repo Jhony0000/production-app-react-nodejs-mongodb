@@ -4,7 +4,7 @@ import { login, logout } from "./store/AuthSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { getCurrentUser } from "./backend/userApi/apiService";
-import MobilSideNav from "./components/Sidenav/mobilSideNav";
+// import MobilSideNav from "./components/Sidenav/mobilSideNav";
 
 function App() {
   const [loding, setLoding] = useState(true);
@@ -48,7 +48,7 @@ function App() {
           </div>
           <div className="row d-flex MobilSideNav d-md-none mt-">
             <div className="col-12">
-              <MobilSideNav />
+{/*               <MobilSideNav /> */}
             </div>
           </div>
         </div>
